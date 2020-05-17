@@ -41,6 +41,11 @@
   opacity: 0.7;
 }
 
+/* Add hover effect for image icons */
+.img-icon:hover {
+  opacity: 0.7;
+}
+
 /* Set a specific color for each brand */
 
 .fa-youtube {
@@ -54,7 +59,12 @@
 }
 
 .fa-instagram {
-  background: #125688;
+  /*background: #125688;*/
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
   color: white;
 }
 
@@ -229,8 +239,8 @@
   <a href="www.linkedin.com/in/todd-flanagan" class="fa fa-linkedin"></a>
   <a href="https://www.youtube.com/channel/UC4aHz9OievlBGRwIEMT6jWQ" class="fa fa-youtube"></a>
   <a href="https://www.instagram.com/tfclimbing/" class="fa fa-instagram"></a>
-  <a href="https://www.mountainproject.com/user/200226473/todd-f" class="fa"><img src="images/mp-icon.png" width=40px></a>
-  <a href="https://github.com/toddflan/" class="fa"><img src="images/github-icon-light.png" width=40px></a>
+  <a href="https://www.mountainproject.com/user/200226473/todd-f" class="img-icon"><img src="images/mp-icon.png" width=40px></a>
+  <a href="https://github.com/toddflan/" class="img-icon"><img src="images/github-icon-light.png" width=40px></a>
 </footer>
 
 </body>
