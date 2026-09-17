@@ -99,6 +99,18 @@ a:hover {
   opacity: 0.7;
 }
 
+.experience-header {
+  display: flex;
+  justify-content: space-between; /* Pushes h4 to the left, date to the far right */
+  align-items: baseline;          /* Aligns the text perfectly along the bottom edge */
+  width: 100%;
+}
+
+.experience-header h4 {
+  margin: 0;                      /* Removes default margin so it doesn't push down */
+}
+
+
 </style>
 
 <body>
@@ -186,7 +198,10 @@ a:hover {
   <!-- Experience Section -->
   <div class="w3-container w3-padding-32" id="experience">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Experience</h3>
-    <h4>Software Engineering Specialist (Jun. 2023 - Present)</h4>
+    <div class="experience-header">
+      <h4>Software Engineering Specialist</h4>
+      <span>Jun 2023 - Present</span>
+    </div>
     <p class="w3-opacity">L3Harris</p>
     <ul>
       <li>Served as deputy engineering lead for an embedded Linux C++ software project with 10+ engineers</li>
